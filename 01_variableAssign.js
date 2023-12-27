@@ -29,3 +29,5 @@ console.log(adress);
 console.log(pinCode);
 console.log(gender);
 console.log(isMarried);
+
+typeof firstName;
