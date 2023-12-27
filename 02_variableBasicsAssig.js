@@ -32,7 +32,7 @@ console.log("isSubscribe: ",isSubscribe,"type: ",typeof isSubscribe);
 console.log("=============================step2=================================");
 console.log("2. Difference between null and undefined and log on console");
 console.log("null: A null means the absence of a value.");
-console.log("When a variable is declare and not assigned any value then it is undefined. ")
+console.log("Undefined: When a variable is declare and not assigned any value then it is undefined. ")
 
 
 

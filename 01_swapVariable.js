@@ -17,3 +17,42 @@ n2=tempt;
 console.log("After swap");
 console.log("n1->",n1);
 console.log("n2->",n2);
+
+console.log("========================step1=============================");
+console.log("Value before swap:");
+var sweety="Sweety";
+var cutie="Cutie";
+console.log("sweety=>",sweety);
+console.log("cutie=>",cutie);
+
+console.log("-------------------------------------------------------------");
+
+console.log("value After swap:");
+var tempt=sweety;
+sweety=cutie;
+cutie=tempt;
+console.log("sweety=>",sweety);
+console.log("cutie=>",cutie);
+
+console.log("==========================Step2===============================");
+console.log("Value before swap:");
+var num1=100;
+var num2=200;
+var num3=300;
+
+console.log("num1=>",num1);
+console.log("num2=>",num2);
+console.log("num3=>",num3);
+
+console.log('----------------------------------------------------------------');
+
+console.log("Value After Swap:");
+var tempt=num1;
+num1=num2;
+num2=num3;
+num3=tempt;
+
+console.log("num1=>",num1);
+console.log("num2=>",num2);
+console.log("num3=>",num3);
+
