@@ -1,4 +1,4 @@
-console.log("====================step1=====================");
+console.log("====================step1====================================================================================");
 
 console.log("1. Create 3 variables for each data types like number, String, Boolean\n Also check their data types and log on console in the format");
 
@@ -29,7 +29,7 @@ console.log("isFallow: ",isFallow,"type: ",typeof isFallow);
 var isSubscribe=true;
 console.log("isSubscribe: ",isSubscribe,"type: ",typeof isSubscribe);
 
-console.log("=============================step2=================================");
+console.log("=============================step2=============================================================================");
 console.log("2. Difference between null and undefined and log on console");
 console.log("null: A null means the absence of a value.");
 console.log("Undefined: When a variable is declare and not assigned any value then it is undefined. ")
