@@ -36,3 +36,29 @@ for (const student of arrayStudents) {
         student.getDetails();
     }
 }
+
+class User {
+
+ 
+
+}
+
+// instanceof operator
+
+console.log(elon instanceof Student);
+
+console.log(stew instanceof User);
+
+//const elon = new Student(33, "Elon", 60);
+
+ 
+
+Student.prototype.country = "India";
+
+console.log(elon.name);
+
+console.log(elon.country);
+
+console.log(stew.country);
+
+console.log(jenny.country);
