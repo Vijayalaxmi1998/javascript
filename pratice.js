@@ -42,3 +42,27 @@ console.log(`a=${firstName}, firstName:${firstName}, value of pi=${3.14}`);
 //console.log(firstName3);
 console.log(a3);  // hence var function scope
 //console.log(pi3);
+
+class Person{
+name;
+age;
+
+constructor(name,age){
+    this.name=name;
+    this.age=age;
+}
+play(){
+    console.log("He Love Playing Criket");
+}
+eat(){
+    console.log("he likes Pizza");
+}
+}
+
+let anilPerson=new Person("anil",25);
+let vijayaPerson=new Person("vijaya",26);
+console.log(anilPerson);
+console.log(vijayaPerson);
+
+console.log(anilPerson.name);
+anilPerson.play();
