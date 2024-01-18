@@ -15,16 +15,16 @@ function dayOfTheWeek(dayNum) {
       break;
     case 4:
       console.log(` Day Number ${dayNum} ==> Thur`);
-      break;
+     break;
     case 5:
       console.log(` Day Number ${dayNum} ==> Friday`);
       break;
     case 6:
       console.log(` Day Number ${dayNum} ==> Saturday`);
-      break;
+     break;
     case 7:
       console.log(` Day Number ${dayNum} ==> Sunday`);
-      break;
+     break;
     default:
       console.log(` Invalid Input --> Day Number ${dayNum}`);
       break;
