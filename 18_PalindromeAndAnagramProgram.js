@@ -14,3 +14,4 @@ const str2 = 'earth'; // Sort in ascending order ==> aehrt
 const resultStr1 = str1.split("").sort().join("");
 const resultStr2 = str2.split("").sort().join("");
 console.log(resultStr1==resultStr2 ? true : false);
+

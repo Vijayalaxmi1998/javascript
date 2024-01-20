@@ -68,7 +68,7 @@ arrayStudents.forEach((element) => {
     }
 })
 
-console.log('-----------------------------------------------------------------');
+console.log('---------------------------------------------------------------------------------------------');
 // arrayStudents.forEach((element) => {
 //     if(element.emp_dept=="IT" && element.emp_salary>=75000 ||  element.emp_dept=="HR"&& element.emp_salary>=75000){
 //         element.getDetails();
