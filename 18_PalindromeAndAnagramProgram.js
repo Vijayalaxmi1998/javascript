@@ -64,3 +64,18 @@ anagram("heart", "earth");
 console.log(
   `----------------------------------------------------------------------------`
 );
+
+// function isPalindrom(str1){
+//     const a= str1.split("").reverse().join("");
+   
+//     if (a===str1) {
+//        console.log(true);
+//     }
+//     else{
+//        console.log(false);
+//     }
+   
+//    }
+//    isPalindrom("madam");
+//    isPalindrom("dad");
+//    isPalindrom("hello")
