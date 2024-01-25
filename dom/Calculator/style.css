@@ -1,0 +1,58 @@
+.container{
+    width:800px;
+    border: 2px solid red;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 100px auto;
+    background-color: black;
+    height: 400px;
+    /* display: flex; */
+}
+#resultValue{
+    color: blue;
+    
+}
+
+.result{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.inputFeild{
+    margin-top: 20px;
+}
+.a{
+    margin-top: 20px;
+    color: cadetblue;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid orange;
+    display: flex;
+    margin-right:;
+}
+
+label{
+    color: rgb(133, 216, 125); 
+    font-size: larger;
+    font-weight: bold;
+ }
+
+ /* label{
+    color: cadetblue; 
+    font-size: larger;
+    font-weight: bold;
+ } */
+
+ .field {
+    border: 2px solid orangered;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+span{
+    color: azure;
+    font-size: 2em;
+}
