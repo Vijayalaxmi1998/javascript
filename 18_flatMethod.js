@@ -12,3 +12,9 @@ const cc = aa.flat(2);
 console.log(cc);
 
 // Assignment ==> flatMap() ==> Learn your self
+const flattenArray = (nestedArray) => { 
+
+    console.log(nestedArray.flat(Infinity));
+  
+  };
+  flattenArray([1,2,3,[1,2,3,[1,2]]]);
