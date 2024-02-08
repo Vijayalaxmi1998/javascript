@@ -137,3 +137,78 @@ array=str.split(" ")
 array.sort();
 console.log(array);
 
+//Write a function that returns all prime number up to to a given limit.
+function isPrime(num){
+    if(num<=1){
+        return console.log(`given num is not prime ${num}`);
+    }
+    for (let i = 2; i < num; i++) {
+        if(num%i===0){
+            return console.log(`given num is not prime ${num}`);
+        }
+        
+    }
+    return console.log(`given num is prime ${num}`);
+};
+
+isPrime(1);
+isPrime(2);
+isPrime(-1);
+isPrime(10);
+
+//factorial program
+
+function factorial(num){
+     if (num==0||num==1) {
+         return 1;
+     }
+     if (num==null||num==undefined||num<=0||isNaN(num)) {
+      return `invalid input`
+     }
+
+     let res = 1;
+     for (let index = 1; index <=num; index++) {
+       res=res*index;
+      
+     }
+     return res;
+}
+
+let fac= factorial(10)
+console.log(fac);
+
+//
+let string1="I am vijayalaxmi";
+let array1=string1.split("");
+string1=array1.reverse().join("");
+console.log(string1);
+console.log(string1.split(" ").join(""));
+
+//spread opr -remove duplicate
+const arr1 =[1,2,3,1,2]
+const ar =[...new Set(arr1)]
+console.log(ar);
+
+// function removeDuplicateCharacters(string) {
+//     return Array.from(new Set(string)).join("");
+// }
+// console.log(removeDuplicateCharacters("hello"));
+
+function removeDuplicateCharacters(string) {
+    return Array.from(new Set(string)).join("");
+}
+console.log(removeDuplicateCharacters("hello"));
+function removeDuplicates(str) {
+const uniqueChars = [];
+
+// Iterate through each character in the string
+for (let i = 0; i < str.length; i++) {   // Check if the current character already exists in the array
+ if (!uniqueChars.includes(str[i])) {
+   // If it doesn't exist, add it to the array
+   uniqueChars.push(str[i]);
+ }
+}
+
+// Join the unique characters back into a string
+return uniqueChars.join("");
+}
