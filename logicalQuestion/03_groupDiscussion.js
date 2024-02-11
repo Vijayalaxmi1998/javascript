@@ -212,3 +212,16 @@ for (let i = 0; i < str.length; i++) {   // Check if the current character alrea
 // Join the unique characters back into a string
 return uniqueChars.join("");
 }
+
+// find the number of unique character in the string.
+let str1="vijayalaxmi";
+const str111=[];
+const count1=0;
+for (let i = 0; i < str1.length; i++) {
+    const element = str1[i];
+    if(str111.indexOf(element)===-1){
+        str111.push(element);
+    }
+    
+}
+console.log(`given string has unique character is ${str111.length}`);
