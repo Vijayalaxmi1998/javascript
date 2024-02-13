@@ -1,7 +1,11 @@
-// 1. Write a function that finds the maximum number in an array.
-let array=[35,11,44,8,19,91];
-array.sort((a,b)=>{
-    return a<b?-1:1;
-});
-console.log(array[array.length-1]);
-console.log(`smalest element from the array:${array[0]}`);
+function Person(){
+    this.name="vijaya",
+    this.age=25,
+    this.education="M.Sc";
+    this.greet=function(){
+        return `Hii ${this.name}`
+    }
+}
+
+const person=new Person();
+console.table(person.greet());
