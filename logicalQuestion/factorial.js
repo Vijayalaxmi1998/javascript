@@ -12,7 +12,7 @@ function factorial(n){
     if (n===0) {
         return 1
     }if (n===null || n===undefined || typeof n==='string' || typeof n!=='number' ) {
-        return `please give valid number`
+        return `please Provide a  valid number`
     } else {
         for (let i = n; i >= 1; i--) {
                 result=result*i;
